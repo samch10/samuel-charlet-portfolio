@@ -22,7 +22,7 @@
 .primary-button:hover { opacity: 0.88; }
 
 .primary-button img {
-  width: 28px;
-  height: 28px;
+  width: 34px;
+  height: 34px;
   flex-shrink: 0;
 }
