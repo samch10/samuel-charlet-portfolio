@@ -72,3 +72,61 @@
   height: 24px;
   flex-shrink: 0;
 }
+
+/* TABLET */
+@media (max-width: 1024px) {
+  .hero-inner {
+    grid-template-columns: 1fr auto 1fr;
+    gap: 1rem;
+  }
+
+  .sorare-card { width: 160px; }
+
+  .big-name { font-size: clamp(3.5rem, 8vw, 6rem); }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    padding: 3rem 1.5rem;
+  }
+
+  .card-wrap.left,
+  .card-wrap.right {
+    display: none;
+  }
+
+  .hero-center {
+    grid-column: 1;
+  }
+
+  .big-name {
+    font-size: clamp(4rem, 18vw, 6rem);
+  }
+
+  .hey { font-size: 1.8rem; }
+
+  .subtitle {
+    font-size: 14px;
+    max-width: 300px;
+  }
+
+  .badges-row {
+    gap: 6px;
+  }
+
+  .tab-button,
+  .tab-button-red {
+    font-size: 13px;
+    height: 36px;
+    padding: 0 14px;
+  }
+
+  .annotation {
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 1.1rem;
+  }
+}
