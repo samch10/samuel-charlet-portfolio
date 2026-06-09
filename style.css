@@ -26,3 +26,26 @@
   height: 34px;
   flex-shrink: 0;
 }
+
+.tab-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #021D16;
+  border: 1px solid #044C36;
+  border-radius: 100px;
+  padding: 0 24px;
+  height: 46px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #13F3BD;
+  cursor: default;
+  white-space: nowrap;
+}
+
+.tab-button img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
