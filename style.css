@@ -49,3 +49,26 @@
   height: 24px;
   flex-shrink: 0;
 }
+
+.tab-button-red {
+  display: inline-flex;
+  align-items: center;
+  gap: 7.05px;
+  background: #1D0202;
+  border: 0.71px solid #4C0404;
+  border-radius: 70.52px;
+  padding: 0 16.92px;
+  height: 38.1px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #DC3535;
+  cursor: default;
+  white-space: nowrap;
+}
+
+.tab-button-red img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
