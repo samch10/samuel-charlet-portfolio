@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Samuel Charlet</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     @font-face {
       font-family: 'ATP';
@@ -15,12 +15,11 @@
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
-      font-family: 'Inter', sans-serif;
+      font-family: 'Poppins', sans-serif;
       background-color: #ffffff;
       overflow-x: hidden;
     }
 
-    /* DOTS + LUEURS */
     #hero {
       position: relative;
       min-height: 100vh;
@@ -42,7 +41,6 @@
       pointer-events: none;
     }
 
-    /* LAYOUT */
     .hero-inner {
       position: relative;
       z-index: 1;
@@ -55,7 +53,6 @@
       gap: 2rem;
     }
 
-    /* CARTES */
     .card-wrap { display: flex; align-items: center; }
     .card-wrap.left { justify-content: flex-end; }
     .card-wrap.right { justify-content: flex-start; }
@@ -67,10 +64,8 @@
 
     .sorare-card.left { transform: rotate(-8deg) translateY(-20px); }
     .sorare-card.right { transform: rotate(6deg) translateY(10px); }
-
     .sorare-card img { width: 100%; border-radius: 16px; }
 
-    /* CENTRE */
     .hero-center {
       text-align: center;
       display: flex;
@@ -86,7 +81,7 @@
     }
 
     .big-name {
-      font-family: 'Inter', sans-serif;
+      font-family: 'Poppins', sans-serif;
       font-size: clamp(5rem, 9vw, 8rem);
       font-weight: 900;
       color: #0a0a0a;
@@ -99,15 +94,9 @@
       color: #555;
       line-height: 1.7;
       max-width: 380px;
+      font-family: 'Poppins', sans-serif;
     }
 
-    /* BOUTON WHATSAPP */
-    <a href="https://wa.me/TONNUMERO" class="primary-button">
-  <img src="assets/icons/WhatsAppIcon.svg" alt="WhatsApp">
-  Talk with me
-</a>
-
-    /* BADGES */
     .badges { display: flex; flex-direction: column; gap: 10px; align-items: center; }
     .badges-row { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
 
@@ -119,12 +108,12 @@
       border-radius: 2rem;
       font-size: 13px;
       font-weight: 500;
+      font-family: 'Poppins', sans-serif;
     }
 
     .badge-green { background: #0d2e1f; color: #4ade80; }
     .badge-dark  { background: #1c0a0a; color: #f87171; }
 
-    /* ANNOTATION */
     .annotation {
       font-family: 'ATP', cursive;
       font-size: 1.4rem;
@@ -159,13 +148,8 @@
         No mail, no long time process, just text me.
       </p>
 
-      <a href="https://wa.me/+33786100987" class="primary-button">
-        <div class="wa-circle">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="#1a6ed4">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
-            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.117 1.528 5.845L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.373l-.36-.213-3.728.973.997-3.634-.234-.374A9.818 9.818 0 1112 21.818z"/>
-          </svg>
-        </div>
+      <a href="https://wa.me/33786100987" class="primary-button">
+        <img src="assets/icons/WhatsAppIcon.svg" alt="WhatsApp">
         Talk with me
       </a>
 
